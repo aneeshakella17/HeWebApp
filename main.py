@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from flask import Flask, render_template, request
 import os
@@ -118,7 +120,6 @@ def process(photo):
     J = get_radiance(photo)/ 255;
     J = clip(J);
     return J
-
 
 
 @app.after_request
