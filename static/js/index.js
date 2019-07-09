@@ -1,7 +1,8 @@
 
 
 function readURL(input){
-   if(true) {
+  if (true) {
+     document.getElementById("output").style.display = "display: none;";
      var reader = new FileReader();
      formdata = new FormData();
      reader.onload = function(e) {
@@ -9,7 +10,7 @@ function readURL(input){
         $('#blah').attr('src', e.target.result).width(150)
                     .height(200);
          formdata.append('image',  e.target.result);
-         $.ajax({c
+         $.ajax({
             type: "POST",
             url: "/send",
 		    data: formdata,
@@ -21,8 +22,6 @@ function readURL(input){
             console.log(response);
             $('#output').attr('src', response).width(150)
                     .height(200);
-            document.getElementById("download").disabled=false;
-            document.getElementById("download").style.display = "inline-block";
           });
 
      }
