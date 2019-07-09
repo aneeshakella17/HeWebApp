@@ -1,7 +1,7 @@
 
 
 function readURL(input){
-  if (input.files && input.files[0]) {
+   if(true) {
      var reader = new FileReader();
      formdata = new FormData();
      reader.onload = function(e) {
@@ -9,7 +9,7 @@ function readURL(input){
         $('#blah').attr('src', e.target.result).width(150)
                     .height(200);
          formdata.append('image',  e.target.result);
-         $.ajax({
+         $.ajax({c
             type: "POST",
             url: "/send",
 		    data: formdata,
