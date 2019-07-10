@@ -1,4 +1,4 @@
-#Dehazing Web App
+# H1 Dehazing Web App
 
 Hazy Image:
 ![Hazy Image](https://github.com/aneeshakella17/HeWebApp/blob/master/static/images/forest_input.jpg =400x300)
