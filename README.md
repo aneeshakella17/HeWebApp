@@ -14,8 +14,10 @@ The app was built using Flask, Javascript, CSS, and HTML. He theorized that in a
 primarily contributed by airlight. We can use the dark channel prior to estimate the atmosphere
 vector which can be used to estimate the transmission.
 
-Example of the Dark Channel Prior
+Example of the Dark Channel Prior:
+<br>
 <img src = "/static/images/dark_channel_prior.jpg" width ="600" height = "300"/>
 
-Transmission
+Transmission:
+<br>
 <img src = "/static/images/transmission.jpg" width ="400" height = "300"/>
