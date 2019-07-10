@@ -1,12 +1,10 @@
 # H1 Dehazing Web App
 
 Hazy Image:
-<br>
-<img src = "/static/images/forest_input.jpg" width ="400" height = "300"/>
+![Hazy Image](https://github.com/aneeshakella17/HeWebApp/blob/master/static/images/forest_input.jpg =400x300)
 
 Output Image:
-<br>
-<img src = "/static/images/forest_output.jpg" width ="400" height = "300"/>
+![Dehazed Image](https://github.com/aneeshakella17/HeWebApp/blob/master/static/images/forest_output.jpg =400x300)
 
 
 Here is my [web app](http://aneeshakella17.pythonanywhere.com/) to run Kaiming He's algorithm for dehazing hazy image.
